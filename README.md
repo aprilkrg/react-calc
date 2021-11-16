@@ -12,7 +12,7 @@ We're going to be building a simple calculator by incorporating what we've learn
     - Click one of the four buttons ( + or - or x or % )
     - The result of the calculation will show in the results area.
 
-![basic calculator](calculator.png)
+![basic calculator](react-calculator.png)
 
 ## Core goals
 1. Create a fresh react app with `yarn create react-app your-app-name`
