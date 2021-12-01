@@ -43,7 +43,7 @@ function App() {
       <form onSubmit={handleChange}>
         {
           operator === "+" ?
-            <button onClick={() => { handleAdd() }}>=</button>
+          <button onClick={() => { handleAdd() }}>=</button>
             :
             null
         }
@@ -66,12 +66,12 @@ function App() {
             null
         }
       </form>
-      {
-        result ?
+        {
+          result ?
           <p> = {result}</p>
           :
           null
-      }
+        }
     </div>
   );
 }
