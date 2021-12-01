@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+input, button {
+  min-width: 30px;
+  max-width: 80px;
+  min-height: 25px;
+  margin: 5px;
+  padding: 2px;
+  border: slategray 2px solid;
+  border-radius: 2px;
+}
+button:hover {
+  border: slategray 3px solid;
+}
+input:hover {
+  border: slategray 3px solid;
+}
